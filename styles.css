@@ -1,0 +1,165 @@
+*{
+    background-color:black;
+    color:white;
+    font-family:sans-serif;
+    box-sizing:border-box;
+    padding:0;
+  }
+  
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header{
+    text-align:center;
+    position:fixed;
+    justify-content:space-around;
+    top:0;
+    padding:0 10px;
+    display:flex;
+    align-items:center;
+    min-height:60px;
+  }
+  
+  nav > ul{
+    flex-direction:row;
+    display:flex;
+    width:30vw;
+    justify-content:space-between;
+  }
+  
+  ul  a {
+    text-decoration:none;
+  }
+  
+  ul  a:hover{
+    background-color:gray;
+  }
+  
+  .logo{
+    width:60vw;
+  }
+  
+  .logo > img {
+    width: 100%;
+    height: 100%;
+    max-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+  }
+  
+  #hero{
+    display:flex;
+    flex-direction:column;
+    margin-top:50px;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+    height:500px;
+  }
+  
+  h2{
+    font-size:50px;
+    font-weight:bold;
+  }
+  
+  #email{
+    width:100%;
+  }
+  
+  .button:hover{
+  background:gray;
+  cursor:pointer;
+  }
+  
+  #hero > p, form{
+    margin-top:-10px;
+    font-weight:bold;
+  }
+  
+  .button{
+    width:60px;
+  }
+  
+  .grid{
+    display:flex;
+    max-width:1000px;
+    margin:0 auto;
+  }
+  
+  #about-the-guitar .icon {
+    display: flex;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+    height: 230px;
+    width: 20vw;
+    font-size:40
+  }
+  
+  #about-the-guitar .description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 80vw;
+    padding: 5px;
+  }
+  
+  #about-the-guitar p{
+    margin-top:-20px;
+  }
+  
+  #demo{
+    margin-top:50px;
+    display:flex;
+    justify-content:center;
+  }
+  
+  #demo > iframe{
+    max-width:560px;
+    width: 100%;
+  }
+  
+  #buy-it{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #B2BEB5;
+  }
+  
+  .product h2{
+    font-size:30px;
+    margin-top:5px;
+  }
+  .product ol{
+  list-style:none;
+  font-size:15px;
+  margin-top:0px;
+  }
+  .level{
+    font-size:30;
+    font-weight:bold;
+    margin-top:5px;
+  }
+  
+  @media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
